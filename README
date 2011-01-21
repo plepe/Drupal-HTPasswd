@@ -1,5 +1,12 @@
 Use htpasswd/htgroup file as user database for Drupal 7.x.
 
+INSTALLATION
+------------
+The drupal module name is 'htpasswd', so after checking out the source you have
+to rename the directory to 'htpasswd'.
+
+CONFIGURATION
+-------------
 There's no fancy configuration from the admin interface, you rather have to
 copy htpasswd.conf-dist to htpasswd.conf and change to your liking.
 
