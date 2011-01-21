@@ -1,0 +1,7 @@
+Use htpasswd/htgroup file as user database for Drupal 7.x.
+
+There's no fancy configuration from the admin interface, you rather have to
+copy htpasswd.conf-dist to htpasswd.conf and change to your liking.
+
+Defined groups in the htgroup-file can be mapped to drupal roles if defined in
+the config file.
